@@ -18,7 +18,7 @@ In this repository, for MDSheet you will find:
 
 This repository was constructed by [Haris M. Ansari](https://github.com/hmansari) and his team, under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Dr. Jorge Mendes and his colleagues for their help in establishing this repository. 
 
-## Note:
+## Note
 
 There are two folders inside Binaries named Old Version and Latest Version. The instructions to add these extensions in Libreoffice Ubuntu platform is given on the official project page. The latest version is compatible with Ubuntu 14.04 32-bit, whereas the old version is compatible with Ubuntu 12.04 32-bit. 
 
