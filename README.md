@@ -23,3 +23,9 @@ Note:
 There are two folders inside Binaries named Old Version and Latest Version. The instructions to add these extensions in Libreoffice Ubuntu platform is given on the official project page. The latest version is compatible with Ubuntu 14.04 32-bit, whereas the old version is compatible with Ubuntu 12.04 32-bit. 
 
 The author has private repositories for the source code which can only be shared by contacting the author, Dr. Jorge Mendes. 
+
+Attribution
+
+Author of tool: Dr. Jorge Mendes
+ 
+Personal website: http://wiki.di.uminho.pt/twiki/bin/view/Personal/JorgeMendes/WebHome
