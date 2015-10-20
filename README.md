@@ -9,8 +9,6 @@ This repository contains information related to the tool MDSheet presented in th
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 
 * [The Official Project Page, not including source code](http://ssaapp.di.uminho.pt/twiki/bin/view/Main/Software)
-* [Link to download old version binary](http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/experiment001/)
-* [Link to download new version binary](http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/latest/)
 * [A Video of the Tool](https://www.youtube.com/watch?v=6LNdTdCpV2U)
 
 In this repository, for MDSheet you will find:
