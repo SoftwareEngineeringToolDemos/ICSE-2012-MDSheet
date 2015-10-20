@@ -19,7 +19,6 @@ In this repository, for MDSheet you will find:
 Internal Links :
 
 [Binary (Old Version)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/tree/Tool_Review_Beaufort_egmulky/Binaries/Old%20Version)
-
 [Binary (New Version)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/tree/Tool_Review_Beaufort_egmulky/Binaries/Latest%20Version)
 
 Both these versions can be downloaded here :
