@@ -18,13 +18,13 @@ In this repository, for MDSheet you will find:
 
 Internal Links :
 
-*[Binary (Old Version)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/tree/Tool_Review_Beaufort_egmulky/Binaries/Old%20Version)
-*[Binary (New Version)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/tree/Tool_Review_Beaufort_egmulky/Binaries/Latest%20Version)
+* [Binary (Old Version)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/tree/Tool_Review_Beaufort_egmulky/Binaries/Old%20Version)
+* [Binary (New Version)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/tree/Tool_Review_Beaufort_egmulky/Binaries/Latest%20Version)
 
 Both these versions can be downloaded here :
 
-*[Download binary (Old Version)](http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/experiment001/)
-*[Download binary (New Version)](http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/latest/)
+* [Download binary (Old Version)](http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/experiment001/)
+* [Download binary (New Version)](http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/latest/)
 
 This repository was constructed by [Haris M. Ansari](https://github.com/hmansari) and his team, under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Dr. Jorge Mendes and his colleagues for their help in establishing this repository. 
 
