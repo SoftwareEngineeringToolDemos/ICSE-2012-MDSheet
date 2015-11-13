@@ -1,0 +1,66 @@
+Vagrant.configure(2) do |config| 
+  config.vm.box = "ubuntu/trusty32"
+  config.vm.box_check_update = false 
+  config.ssh.username = "vagrant"
+  config.vm.provider "virtualbox" do |vb| 
+  	vb.gui = true  
+  	vb.memory = "2048"
+  end
+
+
+config.vm.provision :shell, :inline => "export HOME=/home/vagrant"
+config.vm.provision :shell, :inline => "source /etc/environment"
+  config.vm.provision "shell", inline: <<-SHELL
+  export HOME=/home/vagrant
+  source /etc/environment
+  cd /home/vagrant     
+  sudo apt-get update 
+  sudo apt-get -y install zip
+  sudo apt-get -y install git
+  sudo apt-get -y install build-essential
+  sudo apt-get -y install libmakefile-parser-perl
+  sudo apt-get -y install libreoffice-dev
+  sudo apt-get -y install haskell-platform
+
+  cabal update
+  
+  cabal install cabal-install
+  
+  export PATH=/home/vagrant/.cabal/bin:$PATH
+  source /etc/environment
+
+  cabal install cpphs
+
+  version=`which cabal`
+  echo "VERSION FIRST: $version"
+ 
+
+   echo "PATH=/home/vagrant/.cabal/bin:$PATH" >> /etc/environment 
+   source /etc/environment
+
+  chown -R vagrant: /home/vagrant/.cabal 
+  
+
+  while read line
+  do
+    git clone $line
+  done</vagrant/input
+  
+  cd mdsheet-libreoffice/
+  
+  cabal sandbox init
+
+  cabal sandbox add-source ../mdsheet-utils/ 
+  
+  cabal sandbox add-source ../2ota/
+  
+  cabal sandbox add-source ../mdsheet/
+  
+  cabal install --only-dependencies 
+  
+  sudo apt-get install -y ubuntu-desktop
+  yes " " | ./configure
+  make
+  sudo reboot
+ SHELL
+end
