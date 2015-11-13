@@ -1,0 +1,27 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure(2) do |config|
+  # Every Vagrant development environment requires a box. You can search for
+  # boxes at https://atlas.hashicorp.com/search.
+  config.vm.box = "hashicorp/precise32"
+  config.vm.box_check_update = false
+  config.vm.provider "virtualbox" do |vb|
+        vb.gui = true
+        vb.memory = "2048"
+  end
+  config.vm.provision "shell", inline: <<-SHELL
+    
+	sudo apt-get update
+        cd /home/vagrant
+	LATEST=http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/experiment001/
+	wget $LATEST/MDSheetBasic-201305101511.oxt
+	wget $LATEST/MDSheet.oxt
+	sudo apt-get install -y ubuntu-desktop
+	sudo reboot
+   SHELL
+end
