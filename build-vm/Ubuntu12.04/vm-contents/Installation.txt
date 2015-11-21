@@ -1,0 +1,14 @@
+***************************
+Intsructions to install
+***************************
+
+1. Default LibreOffice calc comes with Ubuntu 12.04 (32-bit).
+2. Download the two extensions for the inference feature from the author's website:
+http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/experiment001/
+3. After downloading the extensions, open LibreOffice Calc.
+4. Go to Tools->Extension Manager and then click on "Add".
+5. Add both the extensions one-by-one from where you have downloaded and click on "Close".
+6. Restart LibreOffice Calc and the inference feature is ready to use.
+
+Note:
+Only "inference" feature works on this version of Ubuntu (12.04 32-bit) whereas both the "embedding" and "co-evolution" features work on latest version of Ubuntu (14.04 32-bit).
