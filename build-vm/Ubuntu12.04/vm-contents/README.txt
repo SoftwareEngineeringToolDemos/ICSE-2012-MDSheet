@@ -8,4 +8,4 @@ README
 4. Your Class model and instance spreadsheet will be created automatically.
 
 Note:
-MDSheet-Inference Add-on Extensions folder on the desktop contains the MDSheet extensions (for inference feature), which are already added in LibreOffice Calc, and a test file "test.ods".
+MDSheet-Inference Add-on Extensions folder on the desktop contains the MDSheet extensions (for inference feature).
