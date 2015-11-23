@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/vagrant/software/scripts/screenlock.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=LockScreen Disabled
+Name=LockScreen Disabled
+Comment[en_US]=Disable the lock screen
+Comment=Disable the lock screen
+
