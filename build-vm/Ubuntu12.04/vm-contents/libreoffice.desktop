@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=libreoffice --calc
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=libreoffice
+Name=libreoffice
+Comment[en_US]=For MDSheet tool
+Comment=For MDSheet tool - Inference feature 
