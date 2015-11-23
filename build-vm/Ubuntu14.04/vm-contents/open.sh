@@ -1,2 +1,2 @@
-cd /home/mdsheet/mdsheet-libreoffice/
+cd /home/vagrant/mdsheet-libreoffice/
 make run
