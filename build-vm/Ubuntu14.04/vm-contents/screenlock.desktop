@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/home/vagrant/software/scripts/screenlock.sh
+Exec=/home/vagrant/scripts/screenlock.sh
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
