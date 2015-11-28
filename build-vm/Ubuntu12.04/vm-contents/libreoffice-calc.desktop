@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Icon=libreoffice-calc
+Type=Application
+Hidden=false
+NoDisplay=false
+Categories=Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Spreadsheets;
+Exec=libreoffice --calc %U
+X-GNOME-Autostart-enabled=true
+Name=LibreOffice Calc
+GenericName=Spreadsheet
+
