@@ -39,7 +39,6 @@ Vagrant.configure(2) do |config|
 	wget -O "/home/vagrant/Desktop/README.txt" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/master/build-vm/Ubuntu12.04/vm-contents/README.txt
 	
      	wget -O "/home/vagrant/Desktop/Acknowledgment.txt" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/master/build-vm/Ubuntu12.04/vm-contents/Acknowledgment.txt
-
 	wget -O "/home/vagrant/Desktop/Link-to-MDSheet-Demo-by-Author.desktop" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/master/build-vm/Ubuntu12.04/vm-contents/Link-to-MDSheet-Demo-by-Author.desktop
 	
 	wget -O "/home/vagrant/Desktop/Link-to-MDSheet-Inference-demo.desktop" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/master/build-vm/Ubuntu12.04/vm-contents/Link-to-MDSheet-Inference-demo.desktop
