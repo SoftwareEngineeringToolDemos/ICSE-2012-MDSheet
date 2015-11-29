@@ -1,5 +1,5 @@
 ****************
 Acknowledgements
 ****************
-1. Vagrant box used: boxcutter/ubuntu1404-desktop (https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop)
+1. Vagrant box used: ubuntu/precise32 (https://atlas.hashicorp.com/ubuntu/boxes/precise32)
 2. LibreOffice: It offers LibreOffice -calc which provides spreadsheet environment.
