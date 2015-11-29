@@ -31,8 +31,6 @@ config.vm.provision :shell, :inline => "source /etc/environment"
 
   wget -O "/home/vagrant/Desktop/Installation.pdf" https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/blob/master/build-vm/Ubuntu14.04/vm-contents/Installation.pdf
 
-  wget -O "/home/vagrant/Desktop/Acknowledgment.txt" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/master/build-vm/Ubuntu14.04/vm-contents/Acknowledgment.txt
-
   wget -O "/home/vagrant/Desktop/Link-to-MDSheet-Demo-by-Author.desktop" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/master/build-vm/Ubuntu14.04/vm-contents/Link-to-MDSheet-Demo-by-Author.desktop
 
   wget -O "/home/vagrant/Desktop/Link-to-MDSheet-Demo.desktop" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/ICSE-2012-MDSheet/master/build-vm/Ubuntu14.04/vm-contents/Link-to-MDSheet-Demo.desktop
