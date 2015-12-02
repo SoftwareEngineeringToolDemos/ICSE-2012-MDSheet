@@ -15,11 +15,11 @@
   `Password: vagrant`
 
 ###Acknowledgements:
-Used vagrant virtual box image of [32 bit Ubuntu 14.04](https://atlas.hashicorp.com/ubuntu/boxes/trusty32).
+Used vagrant virtual box image of [Ubuntu 14.04](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop).
 
 ###References:
 [Vagrant Documentation](https://docs.vagrantup.com/v2/getting-started/)
 
 [Vagrant Blog](https://www.vagrantup.com/blog.html)
 
-[Ubuntu Trusty32 Virtual Box](https://atlas.hashicorp.com/ubuntu/boxes/trusty32)
+[Ubuntu 14.04 Virtual Box](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop)
