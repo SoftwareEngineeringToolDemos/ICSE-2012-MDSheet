@@ -3,3 +3,5 @@ Acknowledgements
 ****************
 1. Vagrant box used: boxcutter/ubuntu1404-desktop (https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop)
 2. LibreOffice: It offers LibreOffice -calc which provides spreadsheet environment.
+3. Author's manual: http://alfa.di.uminho.pt/~jorgemendes/software/mdsheet/latest/MDSheetManual.pdf
+The manual was referred for Readme.txt and Installation.txt files.
